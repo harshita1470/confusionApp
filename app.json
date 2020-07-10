@@ -3,13 +3,11 @@
     "name": "confusion",
     "slug": "confusion",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,8 +19,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    }
+    "android": {
+      "package": "net.food.confusion.confusion"
+    },
+    
   }
 }
